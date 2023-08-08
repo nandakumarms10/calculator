@@ -6,6 +6,9 @@
 body{
     background: rgb(254, 246, 225);
     align-items: center;
+    text-align: center;
+    position: relative;
+
 }
 h1{
     text-align: center;
@@ -60,4 +63,9 @@ button{
     border: none;
     box-shadow: 5px 4px #888888;
     background: linear-gradient(to bottom right,white,grey);
+}
+h6{
+margin-top: 11%;
+font-size:medium;
+color: rgb(222, 212, 187);
 }
