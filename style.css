@@ -16,6 +16,48 @@ h1{
     width: 400px;
     height: 450px;
     margin: auto;
-    background: red;
+    background: linear-gradient(to right top,grey,rgb(204, 201, 201));
     margin-top: 10px;
+    border-radius: 5px 5px 30px ;
+    text-align: center;
+}
+#input{
+    width: 350px;
+    height: 60px;
+    /* margin-left: 21px; */
+    text-align: right;
+    margin-top: 25px;
+    font-size: 45px;
+    border-bottom: 5px solid rgb(68, 67, 67);
+    border-right: 5px solid rgb(171, 167, 167);
+    border-left: 5px solid rgb(201, 195, 195);
+    border-top: 5px solid rgb(123, 116, 116);
+    outline: none;
+    padding: 2px;
+    background: rgb(209,230,168);
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.button-container{
+     background: rgb(149, 149, 156);
+    width: 350px;
+    height: fit-content;
+    margin: auto;
+    padding: 1px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+button{
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 5px 4px #888888;
+    background: linear-gradient(to bottom right,white,grey);
 }
