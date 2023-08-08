@@ -11,3 +11,11 @@ h1{
     text-align: center;
     margin-top:10px ;
 }
+
+.container{
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    background: red;
+    margin-top: 10px;
+}
