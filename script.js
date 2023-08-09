@@ -12,12 +12,19 @@ var num='';
 function clickFunction(e){
     e.preventDefault();
 
-    var chk = e.target.value;
+    var chk = e.target;
     let inpt = document.getElementById('input');
-    if (chk !="=" && chk!="c"){
+
+    chk.classList.add("pressed");
+    setTimeout(()=>{chk.classList.remove("pressed"),1000});
+    let aud = new Audio('./click1.mp3');
+    aud.play();
+
+    setTimeout(()=>{})
+    if (chk.value !="=" && chk.value!="c"){
     num += e.target.value;
     inpt.value=num;
-    }else if(chk =="c"){
+    }else if(chk.value =="c"){
         inpt.value =" "; 
         num='';
     }
